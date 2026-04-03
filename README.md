@@ -434,7 +434,7 @@ These classes have highly distinctive spectral or temporal signatures. Church be
 
 1. Open `HuaSheng_BrianChua__CEG3004_Project_Colab.ipynb` in Colab
 2. Set `GROUP_ID = "Pr_41"` in the first cell
-3. Run all cells in order from top to bottom
+3. Run all cells in order from top to bottom (Or Runtime -> Run all)
 4. Download the generated files when prompted:
    - `Pr_41_model.joblib`
    - `Pr_41_predictions.csv`
