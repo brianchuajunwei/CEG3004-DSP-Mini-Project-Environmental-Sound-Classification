@@ -31,8 +31,8 @@ raw audio -> preprocessing -> DSP feature extraction -> ML classifier -> predict
 
 ```
 .
-├── HuaSheng_BrianChua__EG3004_Project_Colab.ipynb   # Main Colab notebook
-├── huasheng_brianchua__eg3004_project_colab.py       # Python export of notebook
+├── HuaSheng_BrianChua__CEG3004_Project_Colab.ipynb   # Main Colab notebook
+├── huasheng_brianchua__ceg3004_project_colab.py       # Python export of notebook
 ├── README.md                                         # This file
 
 ```
@@ -432,7 +432,7 @@ These classes have highly distinctive spectral or temporal signatures. Church be
 
 ### Option A: Google Colab (recommended)
 
-1. Open `HuaSheng_BrianChua__EG3004_Project_Colab.ipynb` in Colab
+1. Open `HuaSheng_BrianChua__CEG3004_Project_Colab.ipynb` in Colab
 2. Set `GROUP_ID = "Pr_41"` in the first cell
 3. Run all cells in order from top to bottom
 4. Download the generated files when prompted:
@@ -474,7 +474,7 @@ DATA_ROOT = "/your/local/path/to/data/"
 **Step 4: Run the script**
 
 ```bash
-python huasheng_brianchua__eg3004_project_colab.py
+python huasheng_brianchua__ceg3004_project_colab.py
 ```
 
 Comment out the `files.download(...)` lines (Colab-specific) if running locally. Output files will appear in the working directory.
@@ -523,12 +523,4 @@ ipywidgets
 
 ---
 
-## Submission Checklist
 
-- [x] `GROUP_ID` set to `Pr_41`
-- [x] All cells run successfully
-- [x] `Pr_41_model.joblib` generated
-- [x] `Pr_41_predictions.csv` generated
-- [x] Submission clip IDs not modified
-- [x] GitHub repository link included as text file in xsite submission
-- [x] README reflects final repository contents
